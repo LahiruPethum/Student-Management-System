@@ -90,11 +90,11 @@
         <div class="col-md-2">
             <div class="sidebar">
                 <a class="active" href="#home">Home</a>
-                <a href="#news">Student</a>
-                <a href="#contact">Teachers</a>
-                <a href="#contact">Courses</a>
-                <a href="#about">Enrollment</a>
-                <a href="#about">Payment</a>
+                <a href="{{url('/students')}}">Student</a>
+                <a href="{{url('/teachers')}}">Teachers</a>
+                <a href="{{url('/students')}}">Courses</a>
+                <a href="{{url('/students')}}">Enrollment</a>
+                <a href="{{url('/students')}}">Payment</a>
             </div>
         </div>
         <div class="col-md-9" style="padding-top:20px;">
