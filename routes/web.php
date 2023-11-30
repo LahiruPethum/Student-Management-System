@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\teacherController;
 use App\Http\Controllers\batchController;
@@ -27,3 +28,4 @@ Route::resource('/teachers',teacherController::class);
 Route::resource('/courses',CourseController::class);
 Route::resource('/batches',BatchController::class);
 Route::resource('/enrollments',EnrollmentController::class);
+Route::resource('/payments',PaymentController::class);
