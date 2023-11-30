@@ -17,8 +17,8 @@
                     <tr>
                         <th>#</th>
                         <th>Name</th>
-                        <th>Address</th>
-                        <th>Tel</th>
+                        <th>Syllabus</th>
+                        <th>Duration</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
