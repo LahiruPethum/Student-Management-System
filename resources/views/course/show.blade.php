@@ -9,8 +9,8 @@
 
         <div class="card-body">
             <h5 class="card-title">Name : {{ $courses->name }}</h5>
-            <p class="card-text">Address : {{ $courses->syllabus }}</p>
-            <p class="card-text">tel : {{ $courses->duration }}</p>
+            <p class="card-text">Syllabus : {{ $courses->syllabus }}</p>
+            <p class="card-text">Duration : {{ $courses->duration }}</p>
         </div>
 
         </hr>
